@@ -3,5 +3,4 @@ src/vite-env.d.ts
 *.css
 *.scss
 *.svg
-*.json
 *.snap

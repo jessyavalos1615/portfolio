@@ -1,0 +1,10 @@
+{
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": [
+        "<rootDir>/jest-setup.js"
+    ],
+    "moduleNameMapper": {
+        "\\.(css|less)$": "identity-obj-proxy",
+        "^.+\\.svg$": "jest-svg-transformer"
+    }
+}

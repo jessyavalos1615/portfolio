@@ -24,10 +24,29 @@
     ],
     "rules": {
         "quotes": [
-            2,
+            "error",
             "single",
             {
-                "avoidEscape": true
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
+        "eqeqeq": [
+            "error",
+            "smart"
+        ],
+        "no-console": [
+            "error",
+            {
+                "allow": [
+                    "log",
+                    "warn",
+                    "error"
+                ]
             }
         ]
     },
