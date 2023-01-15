@@ -1,0 +1,8 @@
+
+*.svg
+node_modules
+*.css
+*.scss
+.husky
+*.json
+*test.tsx.snap

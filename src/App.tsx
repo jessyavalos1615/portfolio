@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-function App() {
-  return (
-    <>
-      App
-    </>
-  )
-}
+const App = (): JSX.Element => {
+  return <>App</>;
+};
 
-export default App
+export default App;
