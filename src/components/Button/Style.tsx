@@ -1,5 +1,3 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const BaseButton = styled.button`
-
-`;
+export const BaseButton = styled.button``;
