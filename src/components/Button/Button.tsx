@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { ButtonProps } from './ButtonTypes';
 import { BaseButton } from './Style';
+import { ButtonProps } from './ButtonTypes';
 
-const Button = ({ children, onClick }: ButtonProps): JSX.Element => {
-  return <BaseButton onClick={onClick}>{children}</BaseButton>;
+const Button = ({ variant, children, onClick, ...rest }: ButtonProps): JSX.Element => {
+  return <BaseButton variant={variant} onClick={onClick} {...rest}>{children}</BaseButton>;
 };
 
 export default Button;
