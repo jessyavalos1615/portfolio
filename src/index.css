@@ -1,0 +1,21 @@
+@import 'fonts.css';
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+
+    --rackley: #5295AB;
+    --body-text: #777990;
+    --police-blue: #37545E;
+    --weldon-blue: #749DAB;
+
+    --metallic-bronze: #AB7641;
+    --olive-drab-camouflage: #5E4B37;
+
+}
+
+body {
+    font-family: 'Roboto-Regular';
+
+    max-width: 1440px;
+}
