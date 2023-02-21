@@ -6,6 +6,7 @@
     "extends": [
         "plugin:react/recommended",
         "standard-with-typescript",
+        "plugin:storybook/recommended",
         "prettier"
     ],
     "overrides": [],
@@ -22,6 +23,7 @@
     "plugins": [
         "react"
     ],
+    "ignorePatterns": ["**/stories/*"],
     "rules": {
         "quotes": [
             "error",

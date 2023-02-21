@@ -1,4 +1,4 @@
-@import 'fonts.css';
+@import 'styles/fonts.css';
 
 :root {
     --black: #000000;
@@ -14,8 +14,12 @@
 
 }
 
-body {
-    font-family: 'Roboto-Regular';
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
     max-width: 1440px;
+    margin: 0 auto;
 }
