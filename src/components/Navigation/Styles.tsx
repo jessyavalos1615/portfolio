@@ -10,7 +10,7 @@ export const NavigationContainer = styled.div`
 `;
 
 export const NavText = styled(NavLink)`
-  font-family: ${({theme}) => theme.fonts.regular};
+  font-family: ${({ theme }) => theme.fonts.regular};
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
