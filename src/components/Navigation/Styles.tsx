@@ -6,7 +6,7 @@ export const NavigationContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 40px 0;
+  padding: 30px 0;
 `;
 
 export const NavText = styled(NavLink)`
@@ -28,6 +28,11 @@ export const NavText = styled(NavLink)`
 
   &:last-child {
     margin-left: auto;
+  }
+
+  &.active:not(:first-child):not(:last-child) {
+    color: ${({ theme }) => theme.colors.primaryColor_light};
+    text-decoration: underline;
   }
 
   & .underline {
