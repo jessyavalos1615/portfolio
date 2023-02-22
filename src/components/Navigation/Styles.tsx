@@ -13,7 +13,7 @@ export const NavText = styled(NavLink)`
   font-family: ${({ theme }) => theme.fonts.regular};
   font-style: normal;
   font-weight: 700;
-  font-size: ${({theme}) => theme.font_sizes.small};
+  font-size: ${({ theme }) => theme.font_sizes.small};
   font-stretch: 100%;
   line-height: 21px;
 

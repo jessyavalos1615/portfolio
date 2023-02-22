@@ -5,9 +5,11 @@ type ButtonColors = {
   [key in ButtonVariant]: keyof color;
 };
 
-const setCursor = ({ variant }: any): string => variant === ButtonVariant.inactive ? 'default' : 'pointer';
+const setCursor = ({ variant }: any): string =>
+  variant === ButtonVariant.inactive ? 'default' : 'pointer';
 
-const setOpacity = ({ variant }: any): string => variant === ButtonVariant.inactive ? '0.5' : '1';
+const setOpacity = ({ variant }: any): string =>
+  variant === ButtonVariant.inactive ? '0.5' : '1';
 
 export const BaseButton = styled.button<BaseButtonProps>`
   display: flex;
