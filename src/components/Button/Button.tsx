@@ -1,16 +1,12 @@
 import React from 'react';
 
 import { BaseButton } from './Style';
-import { ButtonProps } from './ButtonTypes';
+import { ButtonProps, ButtonVariant } from './ButtonTypes';
 
-const Button = ({
-  variant,
-  children,
-  onClick,
-  ...rest
-}: ButtonProps): JSX.Element => {
+const Button = ({ variant, children, onClick }: ButtonProps): JSX.Element => {
+  const isDisabled = variant === ButtonVariant.inactive;
   return (
-    <BaseButton variant={variant} onClick={onClick} {...rest}>
+    <BaseButton variant={variant} onClick={onClick} disabled={isDisabled}>
       {children}
     </BaseButton>
   );

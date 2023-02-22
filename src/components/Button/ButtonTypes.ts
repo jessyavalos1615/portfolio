@@ -9,6 +9,6 @@ export interface ButtonProps extends BaseButtonProps {
 
 export enum ButtonVariant {
   default = 'default',
-  error = 'error',
+  secondary = 'secondary',
   inactive = 'inactive',
 }
