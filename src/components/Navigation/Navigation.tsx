@@ -18,12 +18,12 @@ const Navigation = (): JSX.Element => {
       text: 'Home',
     },
     {
-      path: '/portfolio',
-      text: 'Portfolio',
-    },
-    {
       path: '/experience',
       text: 'Experience',
+    },
+    {
+      path: '/portfolio',
+      text: 'Portfolio',
     },
     {
       path: '/about',
